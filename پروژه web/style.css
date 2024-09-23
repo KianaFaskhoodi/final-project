@@ -1,0 +1,40 @@
+body, html {
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+    height: 100%;
+}
+.sidebar {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fafaf8;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+}
+.main-content {
+    margin-left: 340px;
+    padding: 20px;
+}
+.sidebar a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #dddd;
+}
+
+.email-content {
+    display: none;
+}
+.email-content.active {
+    display: block;
+}
+.modal-content textarea {
+    height: 150px;
+}
